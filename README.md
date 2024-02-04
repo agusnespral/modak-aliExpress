@@ -1,5 +1,9 @@
 # modak-aliExpress
 
+**Important documents for review:**
+TEST CASE - modak-aliExpress/cypress/e2e/aliExpress/checkStock.cy.js
+POM - modak-aliExpress/cypress/support/pages/aliExpressPage.js
+
 **Challenges of this challenge:**
 
 1. The main challenge for this exercise was an issue related to the interaction between the AliExpress page and Cypress. Many times, step 1 (visiting the URL) didn't finish loading, causing the test to fail. I tried to fix this and only found a partial solution that could work for a local run, but it might generate issues on a CI (Continuous Integration) server. Despite this, I decided to proceed with the partial solution to complete the exercise.
