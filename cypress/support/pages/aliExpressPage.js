@@ -5,9 +5,8 @@ class aliExpress {
     elements = {
         searchField: () => cy.get('#search-words'),
         paginationBar: () => cy.get('li[class^="comet-pagination-item"]'),
-        itemCard: () => cy.get('#card-list > :nth-child(2)').click()
-    }
-
+        itemCard: () => cy.get('[class="multi--container--1UZxxHY cards--card--3PJxwBm search-card-item"]')
+        }
 
     // methods
 
@@ -19,9 +18,10 @@ class aliExpress {
         this.elements.paginationBar().contains(pageNum).click();
     };
 
-    clickOnItemCard() {
-        this.elements.itemCard().click();
+    clickOnItemCard(cardNum) {
+        this.elements.itemCard().eq(cardNum).invoke('removeAttr', 'target').click()
     };
+
 };
 
 export const checkStock = new aliExpress()
