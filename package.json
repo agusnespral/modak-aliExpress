@@ -1,0 +1,25 @@
+{
+  "name": "modak-aliexpress",
+  "version": "1.0.0",
+  "description": "Challenge for Modak",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agusnespral/modak-aliExpress.git"
+  },
+  "author": "Agustin Nespral",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agusnespral/modak-aliExpress/issues"
+  },
+  "homepage": "https://github.com/agusnespral/modak-aliExpress#readme",
+  "devDependencies": {
+    "cypress": "^13.6.4"
+  },
+  "dependencies": {
+    "npx": "^10.2.2"
+  }
+}
