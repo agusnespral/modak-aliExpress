@@ -11,7 +11,7 @@ describe('Modak Challenge - Ali Express', () => {
         // 3. second page locator + click
         checkStock.clickOnPagination("2");
         // 4. second item locator + click
-        checkStock.clickOnItemCard(2)
+        checkStock.clickOnItemCard(1)
         // 5. stock amount locator + assertion to validate that is > 0 
 
     });
